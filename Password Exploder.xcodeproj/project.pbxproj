@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE0F3691B2642F900E68FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3681B2642F900E68FDF /* main.m */; };
+		5FE0F36C1B2642F900E68FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F36B1B2642F900E68FDF /* AppDelegate.m */; };
+		5FE0F36F1B2642FA00E68FDF /* Password_Exploder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F36D1B2642F900E68FDF /* Password_Exploder.xcdatamodeld */; };
+		5FE0F3721B2642FA00E68FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3711B2642FA00E68FDF /* ViewController.m */; };
+		5FE0F3751B2642FA00E68FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0F3731B2642FA00E68FDF /* Main.storyboard */; };
+		5FE0F3771B2642FA00E68FDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0F3761B2642FA00E68FDF /* Images.xcassets */; };
+		5FE0F37A1B2642FA00E68FDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0F3781B2642FA00E68FDF /* LaunchScreen.xib */; };
+		5FE0F3861B2642FA00E68FDF /* Password_ExploderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3851B2642FA00E68FDF /* Password_ExploderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE0F3801B2642FA00E68FDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE0F35B1B2642F900E68FDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE0F3621B2642F900E68FDF;
+			remoteInfo = "Password Exploder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FE0F3631B2642F900E68FDF /* Password Exploder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Exploder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE0F3671B2642F900E68FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE0F3681B2642F900E68FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FE0F36A1B2642F900E68FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5FE0F36B1B2642F900E68FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5FE0F36E1B2642FA00E68FDF /* Password_Exploder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Password_Exploder.xcdatamodel; sourceTree = "<group>"; };
+		5FE0F3701B2642FA00E68FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5FE0F3711B2642FA00E68FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FE0F3741B2642FA00E68FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE0F3761B2642FA00E68FDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5FE0F3791B2642FA00E68FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5FE0F37F1B2642FA00E68FDF /* Password ExploderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password ExploderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE0F3841B2642FA00E68FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE0F3851B2642FA00E68FDF /* Password_ExploderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Password_ExploderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE0F3601B2642F900E68FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE0F37C1B2642FA00E68FDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE0F35A1B2642F900E68FDF = {
+			isa = PBXGroup;
+			children = (
+				5FE0F3651B2642F900E68FDF /* Password Exploder */,
+				5FE0F3821B2642FA00E68FDF /* Password ExploderTests */,
+				5FE0F3641B2642F900E68FDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE0F3641B2642F900E68FDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0F3631B2642F900E68FDF /* Password Exploder.app */,
+				5FE0F37F1B2642FA00E68FDF /* Password ExploderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE0F3651B2642F900E68FDF /* Password Exploder */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0F36A1B2642F900E68FDF /* AppDelegate.h */,
+				5FE0F36B1B2642F900E68FDF /* AppDelegate.m */,
+				5FE0F3701B2642FA00E68FDF /* ViewController.h */,
+				5FE0F3711B2642FA00E68FDF /* ViewController.m */,
+				5FE0F3731B2642FA00E68FDF /* Main.storyboard */,
+				5FE0F3761B2642FA00E68FDF /* Images.xcassets */,
+				5FE0F3781B2642FA00E68FDF /* LaunchScreen.xib */,
+				5FE0F36D1B2642F900E68FDF /* Password_Exploder.xcdatamodeld */,
+				5FE0F3661B2642F900E68FDF /* Supporting Files */,
+			);
+			path = "Password Exploder";
+			sourceTree = "<group>";
+		};
+		5FE0F3661B2642F900E68FDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0F3671B2642F900E68FDF /* Info.plist */,
+				5FE0F3681B2642F900E68FDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5FE0F3821B2642FA00E68FDF /* Password ExploderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0F3851B2642FA00E68FDF /* Password_ExploderTests.m */,
+				5FE0F3831B2642FA00E68FDF /* Supporting Files */,
+			);
+			path = "Password ExploderTests";
+			sourceTree = "<group>";
+		};
+		5FE0F3831B2642FA00E68FDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0F3841B2642FA00E68FDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE0F3621B2642F900E68FDF /* Password Exploder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE0F3891B2642FA00E68FDF /* Build configuration list for PBXNativeTarget "Password Exploder" */;
+			buildPhases = (
+				5FE0F35F1B2642F900E68FDF /* Sources */,
+				5FE0F3601B2642F900E68FDF /* Frameworks */,
+				5FE0F3611B2642F900E68FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Exploder";
+			productName = "Password Exploder";
+			productReference = 5FE0F3631B2642F900E68FDF /* Password Exploder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE0F37E1B2642FA00E68FDF /* Password ExploderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE0F38C1B2642FA00E68FDF /* Build configuration list for PBXNativeTarget "Password ExploderTests" */;
+			buildPhases = (
+				5FE0F37B1B2642FA00E68FDF /* Sources */,
+				5FE0F37C1B2642FA00E68FDF /* Frameworks */,
+				5FE0F37D1B2642FA00E68FDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE0F3811B2642FA00E68FDF /* PBXTargetDependency */,
+			);
+			name = "Password ExploderTests";
+			productName = "Password ExploderTests";
+			productReference = 5FE0F37F1B2642FA00E68FDF /* Password ExploderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE0F35B1B2642F900E68FDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = LookFar;
+				TargetAttributes = {
+					5FE0F3621B2642F900E68FDF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5FE0F37E1B2642FA00E68FDF = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5FE0F3621B2642F900E68FDF;
+					};
+				};
+			};
+			buildConfigurationList = 5FE0F35E1B2642F900E68FDF /* Build configuration list for PBXProject "Password Exploder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE0F35A1B2642F900E68FDF;
+			productRefGroup = 5FE0F3641B2642F900E68FDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE0F3621B2642F900E68FDF /* Password Exploder */,
+				5FE0F37E1B2642FA00E68FDF /* Password ExploderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE0F3611B2642F900E68FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE0F3751B2642FA00E68FDF /* Main.storyboard in Resources */,
+				5FE0F37A1B2642FA00E68FDF /* LaunchScreen.xib in Resources */,
+				5FE0F3771B2642FA00E68FDF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE0F37D1B2642FA00E68FDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE0F35F1B2642F900E68FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE0F36F1B2642FA00E68FDF /* Password_Exploder.xcdatamodeld in Sources */,
+				5FE0F36C1B2642F900E68FDF /* AppDelegate.m in Sources */,
+				5FE0F3721B2642FA00E68FDF /* ViewController.m in Sources */,
+				5FE0F3691B2642F900E68FDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE0F37B1B2642FA00E68FDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE0F3861B2642FA00E68FDF /* Password_ExploderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE0F3811B2642FA00E68FDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE0F3621B2642F900E68FDF /* Password Exploder */;
+			targetProxy = 5FE0F3801B2642FA00E68FDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE0F3731B2642FA00E68FDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE0F3741B2642FA00E68FDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE0F3781B2642FA00E68FDF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE0F3791B2642FA00E68FDF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE0F3871B2642FA00E68FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE0F3881B2642FA00E68FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE0F38A1B2642FA00E68FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Password Exploder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FE0F38B1B2642FA00E68FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Password Exploder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5FE0F38D1B2642FA00E68FDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Password ExploderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Exploder.app/Password Exploder";
+			};
+			name = Debug;
+		};
+		5FE0F38E1B2642FA00E68FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Password ExploderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Password Exploder.app/Password Exploder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE0F35E1B2642F900E68FDF /* Build configuration list for PBXProject "Password Exploder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE0F3871B2642FA00E68FDF /* Debug */,
+				5FE0F3881B2642FA00E68FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE0F3891B2642FA00E68FDF /* Build configuration list for PBXNativeTarget "Password Exploder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE0F38A1B2642FA00E68FDF /* Debug */,
+				5FE0F38B1B2642FA00E68FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FE0F38C1B2642FA00E68FDF /* Build configuration list for PBXNativeTarget "Password ExploderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE0F38D1B2642FA00E68FDF /* Debug */,
+				5FE0F38E1B2642FA00E68FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FE0F36D1B2642F900E68FDF /* Password_Exploder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FE0F36E1B2642FA00E68FDF /* Password_Exploder.xcdatamodel */,
+			);
+			currentVersion = 5FE0F36E1B2642FA00E68FDF /* Password_Exploder.xcdatamodel */;
+			path = Password_Exploder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FE0F35B1B2642F900E68FDF /* Project object */;
+}
