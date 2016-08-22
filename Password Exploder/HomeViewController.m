@@ -2,7 +2,7 @@
 //  ViewController.m
 //  Password Exploder
 //
-//  Created by Samuel Borowsky on 6/8/15.
+//  Created by Samuel Borowsky on 6/8/15...
 //  Copyright (c) 2015 LookFar. All rights reserved.
 //
 
@@ -12,7 +12,7 @@
 
 @end
 
-@implementation HomeViewController 
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
