@@ -44,6 +44,29 @@
     [self saveContext];
 }
 
+
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    NSLog(@"in the function");
+    // in this example, the URL from which the user came is https://paswordexploder.com/passwords/....
+    // determine if the user was viewing a profile
+    if ([[url path] isEqualToString:@"/passwords"]) {
+        NSLog(@"detected 'passwords'");
+        /*
+        // switch to profile view controller
+        [self.tabBarController setSelectedViewController:profileViewController];
+        // pull the profile id number found in the query string
+        NSString *profileID = [url query];
+        // pass profileID to profile view controller
+        [profileViewController loadProfile:profileID];
+         */
+    }
+    return YES;
+}
+
+
+
 #pragma mark - Core Data stack
 
 @synthesize managedObjectContext = _managedObjectContext;

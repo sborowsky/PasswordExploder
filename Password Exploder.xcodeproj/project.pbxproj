@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F17C22E1B278F760076F8B9 /* SafeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F17C22D1B278F760076F8B9 /* SafeViewController.m */; };
+		5F17C2311B2793770076F8B9 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F17C2301B2793770076F8B9 /* ShareViewController.m */; };
+		5F17C2341B27940F0076F8B9 /* AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F17C2331B27940F0076F8B9 /* AccessViewController.m */; };
+		5F22EC0A1B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F22EC091B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.m */; };
+		5F388D131B386248007AAF5F /* clock1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F388D121B386248007AAF5F /* clock1.png */; };
+		5FA067231B31F70500693A48 /* psx_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA067221B31F70500693A48 /* psx_logo.png */; };
+		5FA067251B31F90100693A48 /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA067241B31F90100693A48 /* home1.png */; };
+		5FA067271B31FA0000693A48 /* home_35px.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FA067261B31FA0000693A48 /* home_35px.png */; };
 		5FE0F3691B2642F900E68FDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3681B2642F900E68FDF /* main.m */; };
 		5FE0F36C1B2642F900E68FDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F36B1B2642F900E68FDF /* AppDelegate.m */; };
 		5FE0F36F1B2642FA00E68FDF /* Password_Exploder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F36D1B2642F900E68FDF /* Password_Exploder.xcdatamodeld */; };
-		5FE0F3721B2642FA00E68FDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3711B2642FA00E68FDF /* ViewController.m */; };
+		5FE0F3721B2642FA00E68FDF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3711B2642FA00E68FDF /* HomeViewController.m */; };
 		5FE0F3751B2642FA00E68FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0F3731B2642FA00E68FDF /* Main.storyboard */; };
 		5FE0F3771B2642FA00E68FDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0F3761B2642FA00E68FDF /* Images.xcassets */; };
 		5FE0F37A1B2642FA00E68FDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FE0F3781B2642FA00E68FDF /* LaunchScreen.xib */; };
 		5FE0F3861B2642FA00E68FDF /* Password_ExploderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0F3851B2642FA00E68FDF /* Password_ExploderTests.m */; };
+		5FE1CA361B2A168D008CD7D0 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE1CA351B2A168D008CD7D0 /* AddressBookUI.framework */; };
+		5FE1CA3A1B2A1B51008CD7D0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE1CA391B2A1B51008CD7D0 /* AddressBook.framework */; };
+		5FE5C28A1B33077B00FF7C92 /* homeWhite1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C2891B33077B00FF7C92 /* homeWhite1.png */; };
+		5FE5C28C1B330EF800FF7C92 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE5C28B1B330EF800FF7C92 /* MessageUI.framework */; };
+		5FE5C28E1B3350B100FF7C92 /* safe.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C28D1B3350B100FF7C92 /* safe.png */; };
+		5FE5C2901B3354BE00FF7C92 /* random.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C28F1B3354BE00FF7C92 /* random.png */; };
+		5FE5C2921B3364D200FF7C92 /* Screen Shot 2015-06-18 at 3.42.02 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 5FE5C2911B3364D200FF7C92 /* Screen Shot 2015-06-18 at 3.42.02 PM.png */; };
+		5FEA4E4C1B3085EB00AEDE46 /* ShowCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA4E4B1B3085EB00AEDE46 /* ShowCodeViewController.m */; };
+		5FEA4E4F1B30902600AEDE46 /* PasswordDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FEA4E4E1B30902600AEDE46 /* PasswordDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +45,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F17C22C1B278F760076F8B9 /* SafeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeViewController.h; sourceTree = "<group>"; };
+		5F17C22D1B278F760076F8B9 /* SafeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafeViewController.m; sourceTree = "<group>"; };
+		5F17C22F1B2793770076F8B9 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		5F17C2301B2793770076F8B9 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		5F17C2321B27940F0076F8B9 /* AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessViewController.h; sourceTree = "<group>"; };
+		5F17C2331B27940F0076F8B9 /* AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessViewController.m; sourceTree = "<group>"; };
+		5F22EC081B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAPL_8or7_PersonPickerViewController.h; path = ../AAPL_8or7_PersonPickerViewController.h; sourceTree = "<group>"; };
+		5F22EC091B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAPL_8or7_PersonPickerViewController.m; path = ../AAPL_8or7_PersonPickerViewController.m; sourceTree = "<group>"; };
+		5F388D121B386248007AAF5F /* clock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock1.png; sourceTree = SOURCE_ROOT; };
+		5FA067221B31F70500693A48 /* psx_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psx_logo.png; sourceTree = SOURCE_ROOT; };
+		5FA067241B31F90100693A48 /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home1.png; sourceTree = SOURCE_ROOT; };
+		5FA067261B31FA0000693A48 /* home_35px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_35px.png; sourceTree = SOURCE_ROOT; };
 		5FE0F3631B2642F900E68FDF /* Password Exploder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Exploder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE0F3671B2642F900E68FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FE0F3681B2642F900E68FDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FE0F36A1B2642F900E68FDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FE0F36B1B2642F900E68FDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5FE0F36E1B2642FA00E68FDF /* Password_Exploder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Password_Exploder.xcdatamodel; sourceTree = "<group>"; };
-		5FE0F3701B2642FA00E68FDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FE0F3711B2642FA00E68FDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5FE0F3701B2642FA00E68FDF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5FE0F3711B2642FA00E68FDF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		5FE0F3741B2642FA00E68FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FE0F3761B2642FA00E68FDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5FE0F3791B2642FA00E68FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5FE0F37F1B2642FA00E68FDF /* Password ExploderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password ExploderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE0F3841B2642FA00E68FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FE0F3851B2642FA00E68FDF /* Password_ExploderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Password_ExploderTests.m; sourceTree = "<group>"; };
+		5FE1CA351B2A168D008CD7D0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		5FE1CA391B2A1B51008CD7D0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		5FE5C2891B33077B00FF7C92 /* homeWhite1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeWhite1.png; sourceTree = SOURCE_ROOT; };
+		5FE5C28B1B330EF800FF7C92 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5FE5C28D1B3350B100FF7C92 /* safe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safe.png; sourceTree = SOURCE_ROOT; };
+		5FE5C28F1B3354BE00FF7C92 /* random.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = random.png; sourceTree = SOURCE_ROOT; };
+		5FE5C2911B3364D200FF7C92 /* Screen Shot 2015-06-18 at 3.42.02 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-06-18 at 3.42.02 PM.png"; sourceTree = SOURCE_ROOT; };
+		5FEA4E4A1B3085EB00AEDE46 /* ShowCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCodeViewController.h; sourceTree = "<group>"; };
+		5FEA4E4B1B3085EB00AEDE46 /* ShowCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCodeViewController.m; sourceTree = "<group>"; };
+		5FEA4E4D1B30902600AEDE46 /* PasswordDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordDetailsViewController.h; sourceTree = "<group>"; };
+		5FEA4E4E1B30902600AEDE46 /* PasswordDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE5C28C1B330EF800FF7C92 /* MessageUI.framework in Frameworks */,
+				5FE1CA3A1B2A1B51008CD7D0 /* AddressBook.framework in Frameworks */,
+				5FE1CA361B2A168D008CD7D0 /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +108,9 @@
 		5FE0F35A1B2642F900E68FDF = {
 			isa = PBXGroup;
 			children = (
+				5FE5C28B1B330EF800FF7C92 /* MessageUI.framework */,
+				5FE1CA391B2A1B51008CD7D0 /* AddressBook.framework */,
+				5FE1CA351B2A168D008CD7D0 /* AddressBookUI.framework */,
 				5FE0F3651B2642F900E68FDF /* Password Exploder */,
 				5FE0F3821B2642FA00E68FDF /* Password ExploderTests */,
 				5FE0F3641B2642F900E68FDF /* Products */,
@@ -85,9 +131,21 @@
 			children = (
 				5FE0F36A1B2642F900E68FDF /* AppDelegate.h */,
 				5FE0F36B1B2642F900E68FDF /* AppDelegate.m */,
-				5FE0F3701B2642FA00E68FDF /* ViewController.h */,
-				5FE0F3711B2642FA00E68FDF /* ViewController.m */,
+				5FE0F3701B2642FA00E68FDF /* HomeViewController.h */,
+				5FE0F3711B2642FA00E68FDF /* HomeViewController.m */,
 				5FE0F3731B2642FA00E68FDF /* Main.storyboard */,
+				5F17C2321B27940F0076F8B9 /* AccessViewController.h */,
+				5F17C2331B27940F0076F8B9 /* AccessViewController.m */,
+				5FEA4E4D1B30902600AEDE46 /* PasswordDetailsViewController.h */,
+				5FEA4E4E1B30902600AEDE46 /* PasswordDetailsViewController.m */,
+				5F17C22F1B2793770076F8B9 /* ShareViewController.h */,
+				5F17C2301B2793770076F8B9 /* ShareViewController.m */,
+				5FEA4E4A1B3085EB00AEDE46 /* ShowCodeViewController.h */,
+				5FEA4E4B1B3085EB00AEDE46 /* ShowCodeViewController.m */,
+				5F22EC081B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.h */,
+				5F22EC091B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.m */,
+				5F17C22C1B278F760076F8B9 /* SafeViewController.h */,
+				5F17C22D1B278F760076F8B9 /* SafeViewController.m */,
 				5FE0F3761B2642FA00E68FDF /* Images.xcassets */,
 				5FE0F3781B2642FA00E68FDF /* LaunchScreen.xib */,
 				5FE0F36D1B2642F900E68FDF /* Password_Exploder.xcdatamodeld */,
@@ -99,6 +157,14 @@
 		5FE0F3661B2642F900E68FDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5F388D121B386248007AAF5F /* clock1.png */,
+				5FE5C2911B3364D200FF7C92 /* Screen Shot 2015-06-18 at 3.42.02 PM.png */,
+				5FE5C28F1B3354BE00FF7C92 /* random.png */,
+				5FE5C28D1B3350B100FF7C92 /* safe.png */,
+				5FE5C2891B33077B00FF7C92 /* homeWhite1.png */,
+				5FA067261B31FA0000693A48 /* home_35px.png */,
+				5FA067241B31F90100693A48 /* home1.png */,
+				5FA067221B31F70500693A48 /* psx_logo.png */,
 				5FE0F3671B2642F900E68FDF /* Info.plist */,
 				5FE0F3681B2642F900E68FDF /* main.m */,
 			);
@@ -171,6 +237,7 @@
 				TargetAttributes = {
 					5FE0F3621B2642F900E68FDF = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = V2B63996XQ;
 					};
 					5FE0F37E1B2642FA00E68FDF = {
 						CreatedOnToolsVersion = 6.2;
@@ -203,8 +270,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE0F3751B2642FA00E68FDF /* Main.storyboard in Resources */,
+				5FA067251B31F90100693A48 /* home1.png in Resources */,
+				5FE5C28E1B3350B100FF7C92 /* safe.png in Resources */,
+				5FA067271B31FA0000693A48 /* home_35px.png in Resources */,
 				5FE0F37A1B2642FA00E68FDF /* LaunchScreen.xib in Resources */,
+				5FE5C2901B3354BE00FF7C92 /* random.png in Resources */,
+				5FA067231B31F70500693A48 /* psx_logo.png in Resources */,
+				5FE5C2921B3364D200FF7C92 /* Screen Shot 2015-06-18 at 3.42.02 PM.png in Resources */,
 				5FE0F3771B2642FA00E68FDF /* Images.xcassets in Resources */,
+				5F388D131B386248007AAF5F /* clock1.png in Resources */,
+				5FE5C28A1B33077B00FF7C92 /* homeWhite1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +298,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FE0F36F1B2642FA00E68FDF /* Password_Exploder.xcdatamodeld in Sources */,
+				5FEA4E4C1B3085EB00AEDE46 /* ShowCodeViewController.m in Sources */,
+				5FEA4E4F1B30902600AEDE46 /* PasswordDetailsViewController.m in Sources */,
+				5F22EC0A1B2F32CC0074BE42 /* AAPL_8or7_PersonPickerViewController.m in Sources */,
 				5FE0F36C1B2642F900E68FDF /* AppDelegate.m in Sources */,
-				5FE0F3721B2642FA00E68FDF /* ViewController.m in Sources */,
+				5F17C22E1B278F760076F8B9 /* SafeViewController.m in Sources */,
+				5F17C2341B27940F0076F8B9 /* AccessViewController.m in Sources */,
+				5FE0F3721B2642FA00E68FDF /* HomeViewController.m in Sources */,
+				5F17C2311B2793770076F8B9 /* ShareViewController.m in Sources */,
 				5FE0F3691B2642F900E68FDF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,9 +430,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Password Exploder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -359,9 +443,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Password Exploder/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -418,6 +505,7 @@
 				5FE0F38B1B2642FA00E68FDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE0F38C1B2642FA00E68FDF /* Build configuration list for PBXNativeTarget "Password ExploderTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +514,7 @@
 				5FE0F38E1B2642FA00E68FDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
